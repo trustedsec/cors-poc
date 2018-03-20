@@ -4,7 +4,7 @@ Companion code for TrustedSec's "CORS Findings: Another Way to Comprehend"
 ## Usage
 * `git clone https://github.com/trustedsec/cors-poc`
 * `cd cors-poc`
-* Edit corstest.html to update [target-site/target-page] and [our-server].
+* Edit **corstest.html** to update [target-site/target-page] and [our-server].
 * `python3 -m http.server --cgi` **Caution:** all files in the current directory and sub-directories will be served on 
    HTTP port 8000.
 * Browse to **corstest.html** from a "victim" browser.
