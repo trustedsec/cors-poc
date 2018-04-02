@@ -1,6 +1,6 @@
 # cors-poc
 Companion code for TrustedSec's "CORS Findings: Another Way to Comprehend"
-  blog post. See [blog post url] to understand situations where this could be useful.
+  blog post. See https://www.trustedsec.com/2018/04/cors-findings/ to understand situations where this could be useful.
 ## Usage
 * `git clone https://github.com/trustedsec/cors-poc`
 * `cd cors-poc`
